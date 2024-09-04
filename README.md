@@ -29,6 +29,10 @@ Developed a dynamic and visually engaging personal portfolio website to showcase
 - **Professional Layout**: Clean, modern design with a focus on usability and ease of navigation.
 - **Project Demos**: Links to live projects and their respective repositories for further exploration.
 
+# Overview
+![image](https://github.com/user-attachments/assets/e018c332-a1a9-4046-91f0-e1096c92e84f)
+
+
 # Future Enhancements:
 - Integration of additional backend functionalities for enhanced data handling and processing.
 - Incorporation of advanced UI/UX design elements based on user feedback and industry trends.
