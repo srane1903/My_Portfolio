@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a3e5a8540.js" crossorigin="anonymous"></script>
+   <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: #e2f1ec;
+            color: rgb(0, 0, 0);
+            font-family: 'Poppins', sans-serif;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:90px;
+            background-color: rgb(255, 204, 0);
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 23px;
+        }
+         nav ul li a{
+             text-decoration: none;
+             color:rgb(255, 255, 255);
+
+
+        }
+        nav ul li a:hover{
+             color:rgb(0, 0, 0);
+
+
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+         }
+
+        .firstsection> div{
+
+            width: 30%;
+        }
+
+        .leftsection{
+            margin :70px 0;
+            width: 34px;
+            font-size: 1.5rem;
+        }
+        .rightsection  img{
+           width: 80%;
+            
+        }
+        
+        .namecolor{
+            color:rgb(255, 204, 0);
+            font-size: 3rem;
+            font-weight: 800;
+
+        }
+
+       
+        .divi{
+            font-size: 3rem;
+        }
+        .sub{
+            font-size: 20px;
+        }
+        .subi{
+            font-size: 20px;
+        }
+        
+         </style>
+         <link
+         rel="stylesheet"
+         href="./style.css"/>
+
+
+</head>
+<body>
+   <header>
+    <nav>
+     <div class="left"><span style="font-weight: 500;">SHRAVANI RANE</span></div>
+     <div class="right">
+        <ul style="font-weight: 700;">
+        <li ><a href="#">Home</a></li>
+         <li><a href="#about">About Me</a></li>
+         <li><a href="#services">Services</a></li>
+         <li><a href="#project">Projects</a></li>
+         <li><a href="#contact">Contact</a></li>
+
+        </ul>
+     </div>
+     </nav>
+   </header>
+   <main>
+    <section class="firstsection">
+        <div class="leftsection">
+           <div class="divi" style="font-weight: 600;">HI THERE!</div>
+           <div> <span style="font-size: 3rem; font-weight: 800;">I'M </span><span class="namecolor">SHRAVANI</span></div> 
+           <div style="
+           display: inline-block; 
+
+    padding: 1px 1px; /* Adjust padding for size */
+    border: 2px solid #000000; /* Border color and thickness */
+    border-radius: 8px; /* Rounded corners if desired */
+    background-color: rgb(255, 204, 0); /* Background color inside the box */
+    color: #000000; /* Text color */
+    font-size: 1.2rem; /* Adjust font size if needed */
+    font-weight: 300; /* Make the text bold */
+    width: 300px; /* Adjust width for a long rectangular box */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */">Java Developer</div>
+           <div class="sub">I am a skilled developer specializing in Java Spring Boot and web development.</div>
+            <div class="subi">I build scalable back-end systems and create dynamic, responsive user interfaces to deliver seamless digital experiences.</div>
+
+         
+
+        </div>
+
+        <div class="rightsection">
+            <img src="./home (1).png" alt style=
+            " width:100%;
+              margin:50px ;
+              margin-left:-80px;"
+              >
+            
+        </div>
+    </section>
+   </main>
+   <!------------------------------------ABOUT ME--------------------------------------------->
+   <div id="about">
+    <div class="container ">
+        <div class="row">
+            <div class="above-col-1">
+                <img src="user.png.png"  style= "width: 100%;
+                border: 6px solid #333333; /* Dark border for contrast */
+                border-radius: 12px; /* Rounded corners */
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), inset 0 4px 8px rgba(255, 255, 255, 0.3); /* Outer and inner shadows */
+            ">
+            </div>
+            <div class="above-col-2">
+                <h1 class="sub-title" >About Me</h1>
+                <p class="aboutme" style="font-weight: 800;">SOFTWARE DEVELOPER
+                    
+                    
+                    <div>Interested in developing user interfaces, testing, debugging</div>
+                    <div>Good grasp at java wiht oop features,spring frameworks for enterprise applications and </div>
+                    <div>good knowledge about Web development.</div>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java, Python</span><br>Intermediate level</li>
+                            <li><span>Web Development</span><br>Html, CSS, JvaScript , ReactJS</li>
+                            <li><span>Spring and Springboot Framework</span><br>Spring Boot,Spring MVC, Rest API, Spring Data JPA,My SQL, </li>
+                            <li><span>Tools</span><br>Postman, Github</li>
+                            <li><span>Database</span><br> MySQl, MongoDb</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>2018</span></span><br>Vidya Niketan English Medium School - 87.06 %</li>
+                            <li><span>2019-2021</span><br>Jaihind High School & Jr. College - 88.83%</li>
+                            <li><span>2021-2025</span><br>PCET Nutan Maharashtra Institute of Engineering & Technology</li>
+                           
+                            
+                        </ul>
+                    </div>
+
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-----------------------------------SERVICES----------------------------------------------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title2" style="text-align: center">  Services  </h1> 
+        <div class="services-list">
+            <div>
+                <h2>Java enterprise application </h2>
+                <p>I am a passionate and skilled Java Spring Boot developer with a strong foundation in building robust, scalable, and secure web applications. With hands-on experience in developing RESTful APIs, managing databases, and integrating frontend technologies, I specialize in creating efficient solutions that meet business needs.</p>
+                  <a href="https://github.com/srane1903">Learn More</a>
+            </div>
+
+            <div>
+                <h2>Web Development</h2>
+                <p>I am a dedicated web developer with a passion for creating dynamic, user-friendly websites and web applications. With a strong foundation in both front-end and back-end technologies, I enjoy building responsive and visually appealing web solutions that deliver exceptional user experiences. 
+                </p>
+                  <a href="https://github.com/srane1903">Learn More</a>
+            </div>
+
+
+            <div>
+                <h2>Front end Development</h2>
+                <p>good grasp on HTML, CSS, JS and good knowledge about ReactJS. </p>
+                  <a href="https://github.com/srane1903">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+   </div>
+   <!---------------------------------Projects----------------------------------------------------->
+   <div id="project">
+    <div class="container">
+        <h1 class="sub-title2" style="text-align: center">  My Projects  </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./sb.jpg">
+                <div class="layer">
+                  
+                    <h3>Employee Management System</h3>
+                    <p>The Employee Management System is a Spring Boot application designed to manage employee data efficiently through RESTful APIs. This system provides functionalities to create, read, update, and delete employee records</p>
+                    <a href="https://github.com/srane1903/ems-backend/tree/ems"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="./em.jpg">
+                <div class="layer">
+                  
+                    <h3>Email Genrator with password along with departmental address</h3>
+                    <p>This project is a simple Email Generation System implemented in Java. It allows creating an email account for new employees with a randomly generated password and a departmental email address.</p>
+                    <a href="https://github.com/srane1903/Email-Generater-Application"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./ed.png">
+                <div class="layer">
+                  
+                    <h3>Amazon Clone Site</h3>
+                    <p>This project is a front-end clone of Amazon, replicating the look and feel of the Amazon website. It focuses on delivering a user interface similar to Amazon's, including product listings, search functionality, and user account management.</p>
+                    <a href="https://github.com/srane1903/Edunet_FED_Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <a href="https://github.com/srane1903" class="button">See More</a>
+
+    </div>
+   </div>
+   <!----------------------------CONTACT -------------------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" style="text-align: center">Contact Me</h1>
+                <p ><i class="fa-solid fa-paper-plane"></i>shravanir1903@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 7741889225</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/srane1903"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./Shravani Rane PCET_NMIET.pdf" download class="button button2">Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/manwkjoo" method="POST" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea type="Message" rows="6" placeholder="Your Messsage" ></textarea>
+                    <button type="Submit" class="button button2" >SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>THANKS FOR PATIENCE !</p>
+    </div>
+   </div>
+  <script >
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+    document.getElementById('contactForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(this);
+            const data = {};
+            
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            try {
+                const response = await fetch('http://localhost:3000/api/send-email', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data),
+                });
+
+                if (response.ok) {
+                    alert('Email sent successfully!');
+                } else {
+                    alert('Error sending email.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+   </script>  
+</body>
+</html>
