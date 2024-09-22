@@ -38,3 +38,5 @@ Developed a dynamic and visually engaging personal portfolio website to showcase
 - Incorporation of advanced UI/UX design elements based on user feedback and industry trends.
 
 [View Portfolio](https://github.com/srane1903/My_Portfolio)
+# Hosted on Netlify [Netlify builds, deploys and hosts your front-end. ]
+https://66d8964f61a09e03d9640d15--portfolio-srane.netlify.app/
